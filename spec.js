@@ -8,7 +8,7 @@ var cn = {
 };
 
 var db = pgp(cn);
-
+//sam update
 var arr = [];
 db.any(`SELECT title
 FROM film
